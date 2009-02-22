@@ -1,6 +1,6 @@
-%define module   MooseX-Types-Structured
-%define version    0.07
-%define release    %mkrel 2
+%define module  MooseX-Types-Structured
+%define version 0.07
+%define release %mkrel 3
 
 Name:       perl-%{module}
 Version:    %{version}
@@ -18,6 +18,7 @@ BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::Pod)
 BuildRequires: perl(Test::Pod::Coverage)
 Provides: perl(MooseX::Meta::TypeCoercion::Structured)
+Provides: perl(MooseX::Meta::TypeConstraint::Structured)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
