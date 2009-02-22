@@ -1,6 +1,6 @@
 %define module   MooseX-Types-Structured
 %define version    0.07
-%define release    %mkrel 1
+%define release    %mkrel 2
 
 Name:       perl-%{module}
 Version:    %{version}
@@ -10,7 +10,6 @@ Group:      Development/Perl
 Summary:    Structured type constraints
 Url:        http://search.cpan.org/dist/%{module}
 Source:     http://www.cpan.org/modules/by-module/MooseX/%{module}-%{version}.tar.gz
-BuildRequires: perl-devel
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(Moose)
 BuildRequires: perl(MooseX::Types)
@@ -18,6 +17,7 @@ BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::Pod)
 BuildRequires: perl(Test::Pod::Coverage)
+Provides: perl(MooseX::Meta::TypeCoercion::Structured)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
