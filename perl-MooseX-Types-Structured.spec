@@ -1,6 +1,6 @@
 %define module  MooseX-Types-Structured
-%define version 0.07
-%define release %mkrel 3
+%define version 0.09
+%define release %mkrel 1
 
 Name:       perl-%{module}
 Version:    %{version}
