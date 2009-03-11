@@ -17,6 +17,7 @@ BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::Pod)
 BuildRequires: perl(Test::Pod::Coverage)
+BuildRequires: perl(Devel::PartialDump)
 Provides: perl(MooseX::Meta::TypeCoercion::Structured)
 Provides: perl(MooseX::Meta::TypeConstraint::Structured)
 BuildArch: noarch
