@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 3
 
 Summary:    Structured type constraints
 License:    GPL+ or Artistic
@@ -20,8 +20,12 @@ BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::Pod)
 BuildRequires: perl(Test::Pod::Coverage)
 BuildRequires: perl(Devel::PartialDump)
-Provides: perl(MooseX::Meta::TypeCoercion::Structured)
-Provides: perl(MooseX::Meta::TypeConstraint::Structured)
+Provides: perl(MooseX::Meta::TypeCoercion::Structured) = %{version}
+Provides: perl(MooseX::Meta::TypeCoercion::Structured::Optional) = %{version}
+Provides: perl(MooseX::Meta::TypeConstraint::Structured) = %{version}
+Provides: perl(MooseX::Meta::TypeConstraint::Structured::Optional) = %{version}
+Provides: perl(MooseX::Types::Structured::MessageStack) = %{version}
+Provides: perl(MooseX::Types::Structured::OverflowHandler) = %{version}
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
