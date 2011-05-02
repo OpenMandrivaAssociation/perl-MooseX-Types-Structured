@@ -1,9 +1,9 @@
 %define upstream_name    MooseX-Types-Structured
-%define upstream_version 0.26
+%define upstream_version 0.27
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:    Structured type constraints
 License:    GPL+ or Artistic
