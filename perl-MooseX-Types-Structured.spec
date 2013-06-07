@@ -35,7 +35,7 @@ constraint, such as an ArrayRef or HashRef, which has been enhanced to
 allow you to explicitly name all the allowed type constraints inside the
 structure. The generalized form is:
 
-    TypeConstraint[@TypeParameters or %TypeParameters]
+    TypeConstraint[@TypeParameters or %%TypeParameters]
 
 Where 'TypeParameters' is an array or hash of the
 Moose::Meta::TypeConstraint manpage.
