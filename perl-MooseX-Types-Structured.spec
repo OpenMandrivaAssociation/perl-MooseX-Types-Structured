@@ -13,6 +13,7 @@ Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-Types-Structured-%{
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
+BuildRequires:	perl(Module::Implementation)
 BuildRequires:	perl(Moose)
 BuildRequires:	perl(MooseX::Types)
 BuildRequires:	perl(Test::Exception)
