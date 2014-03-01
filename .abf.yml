@@ -1,4 +1,5 @@
 removed_sources:
   MooseX-Types-Structured-0.27.tar.gz: 506d627aa002f7b2b34ab59d780ac16873214798
-sources:
   MooseX-Types-Structured-0.28.tar.gz: 121eba56304b3f9e6a0694ff78ff7599a6507bc8
+sources:
+  MooseX-Types-Structured-0.30.tar.gz: a9420b62ecd7a672f274f4d5ea3abf750d05f87b

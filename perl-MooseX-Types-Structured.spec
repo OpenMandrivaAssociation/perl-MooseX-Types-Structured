@@ -1,5 +1,4 @@
-%define upstream_name    MooseX-Types-Structured
-%define upstream_version 0.28
+%define upstream_name    MooseX-Types-Structured%define upstream_version 0.30
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -9,7 +8,7 @@ Summary:	Structured type constraints
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-Types-Structured-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -140,5 +139,6 @@ make test
 
 * Sun Feb 22 2009 cpan2dist 0.07-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 
