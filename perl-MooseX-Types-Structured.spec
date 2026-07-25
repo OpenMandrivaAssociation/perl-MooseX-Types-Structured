@@ -1,14 +1,15 @@
-%define upstream_name    MooseX-Types-Structured%define upstream_version 0.30
+%define upstream_name    MooseX-Types-Structured
+%define upstream_version 0.36
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Structured type constraints
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/moose/MooseX-Types-Structured
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Types-Structured-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
